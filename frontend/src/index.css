@@ -16,3 +16,19 @@ header a {
   color: #ffffff;
   font-weight: bold;
 }
+.product img {
+  width: 100%;
+  max-width: 400px;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product {
+  border: 1px #404040 solid;
+  margin: 1rem;
+}
+.product-info {
+  padding: 1rem;
+}
